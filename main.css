@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  color: #212121;
+}
+
+.formHeading {
+  margin-top: 50px;
+}
+
+.userForm {
+  width: 60%;
+  margin: 50px auto;
+  font-family: "Ubuntu", sans-serif;
+  text-align: left;
+}
+
+.userForm label {
+  color: #212121;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+}
+
+.userForm input {
+  width: 100%;
+  margin-top: 10px;
+  font-family: "Ubuntu", sans-serif;
+  margin-bottom: 20px;
+  color: #212121;
+  height: 40px;
+  font-size: 24px;
+  border: 1px solid #383838;
+  padding-left: 10px;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+}
+
+.userForm input:hover {
+  -webkit-box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.5);
+          box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.5);
+}
+
+.userForm button:hover {
+  -webkit-box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.5);
+          box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.5);
+}
+
+.userForm button {
+  color: #212121;
+  height: 40px;
+  font-family: "Ubuntu", sans-serif;
+  width: 30%;
+  margin: 20px 35%;
+  font-size: 24px;
+  background-color: #fafafa;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+  border: 1px solid #383838;
+  border-radius: 10px;
+}
+
+main {
+  margin: 100px;
+  text-align: left;
+}
+
+main .mainHeading {
+  font-size: 30px;
+}
+
+.user {
+  margin: 30px 0 0 30px;
+  border: 1px solid #383838;
+}
+
+.userName {
+  margin-left: 10px;
+}
+
+.userInput {
+  margin-left: 20px;
+  font-weight: 400;
+}
+
+.editBtn {
+  margin-left: 20px;
+  color: #212121;
+  height: 40px;
+  font-family: "Ubuntu", sans-serif;
+  width: 30%;
+  font-size: 24px;
+  background-color: #fafafa;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+  border: 1px solid #383838;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.editBtn:hover {
+  -webkit-box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.5);
+          box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.5);
+}
+/*# sourceMappingURL=main.css.map */
