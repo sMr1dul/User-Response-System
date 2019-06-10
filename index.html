@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <title>Purpose Finder | Login</title>
+  </head>
+  <body>
+    <button class="logout">Logout</button>
+    <!-- The Login Modal -->
+    <div id="loginModal" class="modal">
+      <!-- Modal content -->
+      <div class="modalContent">
+        <h1 class="modelHeading">Login</h1>
+        <input
+          type="text"
+          name="inputName"
+          placeholder="Name"
+          class="inputName"
+        />
+        <br />
+        <button class="loginBtn">Login</button>
+      </div>
+    </div>
+
+    <!-- Show Purpose -->
+    <div id="purposeModal" class="modal">
+      <!-- Modal content -->
+      <div class="purposeModalContent modalContent"></div>
+    </div>
+
+    <!-- Purpose Finder Form -->
+    <div class="finder">
+      <form class="userForm">
+        <h1 class="finderHeading">Purpose finder</h1>
+        <input
+          type="text"
+          name="input1"
+          placeholder="Things that you love"
+          class="input1"
+        />
+
+        <input
+          type="text"
+          name="input2"
+          placeholder="Things you’re good at"
+          class="input2"
+        />
+
+        <input
+          type="text"
+          name="input2"
+          placeholder="Things you can earn money from"
+          class="input3"
+        />
+
+        <input
+          type="text"
+          name="input4"
+          placeholder="Things which the world needs"
+          class="input4"
+        />
+        <br />
+        <button class="findBtn">Find</button>
+      </form>
+    </div>
+    <main>
+      <h1 class="mainHeading">User Responses</h1>
+      <div class="responses"></div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,218 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #68d594;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+  font-family: "Ubuntu", sans-serif;
+}
+
+/* Modal Content/Box */
+.modalContent {
+  background-color: #fefefe;
+  text-align: center;
+  margin: 15% auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 40%;
+  border-radius: 10px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+input {
+  width: 50%;
+  margin-top: 10px;
+  font-family: "Ubuntu", sans-serif;
+  margin-bottom: 20px;
+  color: #212121;
+  height: 40px;
+  font-size: 24px;
+  border: 1px solid #383838;
+  padding-left: 10px;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.loginBtn {
+  color: #212121;
+  height: 40px;
+  font-family: "Ubuntu", sans-serif;
+  width: 30%;
+  margin: 20px auto;
+  font-size: 24px;
+  background-color: #fafafa;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+  border: 1px solid #383838;
+  border-radius: 10px;
+}
+
+.modelHeading {
+  font-family: "Ubuntu", sans-serif;
+  margin: 40px auto;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+.finder {
+  text-align: center;
+  width: 70%;
+  background-color: white;
+  margin: 50px auto;
+  padding: 20px;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+.finder input {
+  border-radius: 0;
+  border: 0;
+  border-bottom: 2px solid #68d594;
+  margin-bottom: 30px;
+}
+
+.finder .finderHeading {
+  font-family: "Ubuntu", sans-serif;
+  margin-bottom: 40px;
+}
+
+.modalSaveBtn,
+.modalEditBtn,
+.findBtn,
+.logout {
+  color: #212121;
+  height: 40px;
+  margin: 10px 10px 20px 10px;
+  font-family: "Ubuntu", sans-serif;
+  width: 100px;
+  padding-left: 10px;
+  font-size: 24px;
+  background-color: #fafafa;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+  border: 1px solid #383838;
+  border-radius: 10px;
+  background-color: #68d594;
+}
+
+.logout {
+  background-color: white;
+}
+
+.responses {
+  background-color: white;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  padding-left: 30px;
+}
+
+main {
+  margin: 100px;
+  text-align: left;
+  font-family: "Ubuntu", sans-serif;
+}
+
+main .mainHeading {
+  font-size: 40px;
+}
+
+.logout {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.user {
+  margin: 30px 0 0 30px;
+  padding: 20px;
+}
+
+.userName {
+  margin-left: 10px;
+}
+
+.userInput {
+  margin-left: 20px;
+  font-weight: 400;
+}
+
+.visib {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.savedEditBtn {
+  color: #212121;
+  height: 40px;
+  margin: 10px 10px 20px 10px;
+  font-family: "Ubuntu", sans-serif;
+  width: 100px;
+  padding-left: 10px;
+  font-size: 24px;
+  background-color: #fafafa;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+  border: 1px solid #383838;
+  border-radius: 10px;
+  background-color: #68d594;
+}
+/*# sourceMappingURL=main.css.map */
